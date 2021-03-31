@@ -1,0 +1,55 @@
+body {
+    background-color:rgb(17, 199, 199)
+  }
+  
+  .player {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; 
+  }
+  
+  .details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .track-art {
+    margin: 50px;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 50%;
+  }
+  
+  .track-name {
+    font-size: 2rem;
+  }
+  
+  /*comandi player*/
+  .buttons {
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+  .playpause-track, .prev-track, .next-track {
+    padding: 20px;
+  }
+
+  .slider_container {
+    width: 300%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*spazio tra barra bolume e traccia*/
+  .current-time, .total-duration {
+    padding: 10px;
+  }
+  
+  
